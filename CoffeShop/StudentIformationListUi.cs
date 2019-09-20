@@ -150,30 +150,14 @@ namespace CoffeShop
             }
             else if (nameForRadioButton.Checked == true)
             {
-                try
-                {
-                    index = names.IndexOf(search);
-                }
-                catch (Exception)
-                {
 
-                    MessageBox.Show("Enter Name Please");
-                    return;
-                }
-               
+              index = names.IndexOf(search);
+              
             }
             else if (mobileForRadioButton.Checked==true)
             {
-                try
-                {
-                    index = mobiles.IndexOf(search);
-                }
-                catch (Exception)
-                {
 
-                    MessageBox.Show("Enter Mobile Number Please");
-                    return;
-                }
+              index = mobiles.IndexOf(search);
                 
             }
             if (index!=-1)
