@@ -29,9 +29,7 @@
         private void InitializeComponent()
         {
             this.GroupBox = new System.Windows.Forms.GroupBox();
-            this.searchTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.searchButton = new System.Windows.Forms.Button();
             this.stageTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.stGpaTextBox = new System.Windows.Forms.TextBox();
@@ -43,6 +41,8 @@
             this.stMobileTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.stIdTextBox = new System.Windows.Forms.TextBox();
+            this.searchTextBox = new System.Windows.Forms.TextBox();
+            this.searchButton = new System.Windows.Forms.Button();
             this.addButton = new System.Windows.Forms.Button();
             this.showAllButton = new System.Windows.Forms.Button();
             this.addedRichTextBox = new System.Windows.Forms.RichTextBox();
@@ -87,13 +87,6 @@
             this.GroupBox.TabStop = false;
             this.GroupBox.Text = "Student Information";
             // 
-            // searchTextBox
-            // 
-            this.searchTextBox.Location = new System.Drawing.Point(324, 166);
-            this.searchTextBox.Name = "searchTextBox";
-            this.searchTextBox.Size = new System.Drawing.Size(73, 20);
-            this.searchTextBox.TabIndex = 12;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -102,16 +95,6 @@
             this.label4.Size = new System.Drawing.Size(26, 13);
             this.label4.TabIndex = 11;
             this.label4.Text = "Age";
-            // 
-            // searchButton
-            // 
-            this.searchButton.Location = new System.Drawing.Point(324, 192);
-            this.searchButton.Name = "searchButton";
-            this.searchButton.Size = new System.Drawing.Size(66, 23);
-            this.searchButton.TabIndex = 1;
-            this.searchButton.Text = "Search";
-            this.searchButton.UseVisualStyleBackColor = true;
-            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
             // stageTextBox
             // 
@@ -200,6 +183,23 @@
             this.stIdTextBox.Size = new System.Drawing.Size(133, 20);
             this.stIdTextBox.TabIndex = 0;
             // 
+            // searchTextBox
+            // 
+            this.searchTextBox.Location = new System.Drawing.Point(324, 166);
+            this.searchTextBox.Name = "searchTextBox";
+            this.searchTextBox.Size = new System.Drawing.Size(73, 20);
+            this.searchTextBox.TabIndex = 12;
+            // 
+            // searchButton
+            // 
+            this.searchButton.Location = new System.Drawing.Point(324, 192);
+            this.searchButton.Name = "searchButton";
+            this.searchButton.Size = new System.Drawing.Size(66, 23);
+            this.searchButton.TabIndex = 1;
+            this.searchButton.Text = "Search";
+            this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
+            // 
             // addButton
             // 
             this.addButton.Location = new System.Drawing.Point(315, 12);
@@ -226,7 +226,7 @@
             this.addedRichTextBox.Name = "addedRichTextBox";
             this.addedRichTextBox.Size = new System.Drawing.Size(421, 79);
             this.addedRichTextBox.TabIndex = 4;
-            this.addedRichTextBox.Text = "Student Info:";
+            this.addedRichTextBox.Text = "";
             // 
             // groupBox1
             // 
@@ -440,5 +440,6 @@
         private System.Windows.Forms.RadioButton idForRadioButton;
         private System.Windows.Forms.RadioButton nameForRadioButton;
         private System.Windows.Forms.RadioButton mobileForRadioButton;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

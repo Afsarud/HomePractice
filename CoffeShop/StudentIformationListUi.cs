@@ -125,7 +125,66 @@ namespace CoffeShop
 
         private void searchButton_Click(object sender, EventArgs e)
         {
+            string search = searchTextBox.Text;
 
+            if(search == "") //If Search field empty then show this massage
+            {
+                MessageBox.Show("Enter searching value");
+                return;
+            }
+            int index = -1;
+                if (idForRadioButton.Checked==true) 
+            {
+                try
+                {
+                    int searchId = Convert.ToInt32(search);
+                    index = ids.IndexOf(searchId);
+                }
+                catch (Exception)
+                {
+
+                    MessageBox.Show("Enter Id Please");
+                    return;
+                }
+                
+            }
+            else if (nameForRadioButton.Checked == true)
+            {
+                try
+                {
+                    index = names.IndexOf(search);
+                }
+                catch (Exception)
+                {
+
+                    MessageBox.Show("Enter Name Please");
+                    return;
+                }
+               
+            }
+            else if (mobileForRadioButton.Checked==true)
+            {
+                try
+                {
+                    index = mobiles.IndexOf(search);
+                }
+                catch (Exception)
+                {
+
+                    MessageBox.Show("Enter Mobile Number Please");
+                    return;
+                }
+                
+            }
+            if (index!=-1)
+            {
+                ShowStudentInfoOfDisplay(index, index);
+                MessageBox.Show("Search Successful");
+            }
+            else
+            {
+                MessageBox.Show("Search Unsuccessful");
+            }
         }
     }
 }
