@@ -88,6 +88,13 @@ namespace CoffeShop
             showAllButton.Enabled = true;
             searchButton.Enabled = true;
             ShowStudentInfoOfDisplay(index,index);
+
+            stIdTextBox.Clear();
+            stNameTextBox.Clear();
+            stMobileTextBox.Clear();
+            staddressTextBox.Clear();
+            stageTextBox.Clear();
+            stGpaTextBox.Clear();
         }
         private void ShowStudentInfoOfDisplay( int startIndex, int endIndex)
         {
