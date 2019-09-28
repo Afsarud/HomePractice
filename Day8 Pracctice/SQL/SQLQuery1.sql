@@ -1,3 +1,6 @@
 SELECT * FROM Items
+SELECT * FROM Or
 
 DELETE FROM Items where ItemId = 20
+
+INSERT INTO Order VALUES ('')
