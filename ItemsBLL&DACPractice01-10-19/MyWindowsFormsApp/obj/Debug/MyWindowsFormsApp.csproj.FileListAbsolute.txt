@@ -1,0 +1,14 @@
+F:\batch06\batch6-master\MyWindowsFormsApp\MyWindowsFormsApp\bin\Debug\MyWindowsFormsApp.exe.config
+F:\batch06\batch6-master\MyWindowsFormsApp\MyWindowsFormsApp\bin\Debug\MyWindowsFormsApp.exe
+F:\batch06\batch6-master\MyWindowsFormsApp\MyWindowsFormsApp\bin\Debug\MyWindowsFormsApp.pdb
+F:\batch06\batch6-master\MyWindowsFormsApp\MyWindowsFormsApp\obj\Debug\MyWindowsFormsApp.ArrayUi.resources
+F:\batch06\batch6-master\MyWindowsFormsApp\MyWindowsFormsApp\obj\Debug\MyWindowsFormsApp.ConditionUi.resources
+F:\batch06\batch6-master\MyWindowsFormsApp\MyWindowsFormsApp\obj\Debug\MyWindowsFormsApp.DataTypeUi.resources
+F:\batch06\batch6-master\MyWindowsFormsApp\MyWindowsFormsApp\obj\Debug\MyWindowsFormsApp.Home.resources
+F:\batch06\batch6-master\MyWindowsFormsApp\MyWindowsFormsApp\obj\Debug\MyWindowsFormsApp.ItemUi.resources
+F:\batch06\batch6-master\MyWindowsFormsApp\MyWindowsFormsApp\obj\Debug\MyWindowsFormsApp.ListUi.resources
+F:\batch06\batch6-master\MyWindowsFormsApp\MyWindowsFormsApp\obj\Debug\MyWindowsFormsApp.Properties.Resources.resources
+F:\batch06\batch6-master\MyWindowsFormsApp\MyWindowsFormsApp\obj\Debug\MyWindowsFormsApp.csproj.GenerateResource.Cache
+F:\batch06\batch6-master\MyWindowsFormsApp\MyWindowsFormsApp\obj\Debug\MyWindowsFormsApp.exe
+F:\batch06\batch6-master\MyWindowsFormsApp\MyWindowsFormsApp\obj\Debug\MyWindowsFormsApp.pdb
+F:\batch06\batch6-master\MyWindowsFormsApp\MyWindowsFormsApp\obj\Debug\MyWindowsFormsApp.csprojResolveAssemblyReference.cache
